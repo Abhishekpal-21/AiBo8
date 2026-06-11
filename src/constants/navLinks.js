@@ -67,7 +67,7 @@ export const navLinks = [
   },
   {
     label: "Courses",
-    children: [
+    childrens: [
       {
         label: "Python",
         path: "/courses/python",
@@ -112,7 +112,7 @@ export const navLinks = [
   },
   {
     label: "Our Labs",
-    children: [
+    childrens: [
       {
         label: "PM Shree Lab",
         path: "/our-labs/pm-shree-lab",

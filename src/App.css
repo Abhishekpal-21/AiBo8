@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+/* Element CSS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Reusable CSS */
 .container {
   max-width: 1200px;
@@ -26,6 +32,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* position: relative; */
 }
 
 nav .logo {
@@ -68,4 +75,46 @@ nav .nav_links .nav_parent .nav_childerns {
   flex-direction: column;
   gap: 20px;
   color: white;
+}
+
+nav .menu-open,
+nav .menu-close {
+  display: none;
+}
+
+/* Responsive CSS */
+@media (max-width: 780px) {
+  nav .menu-open,
+  nav .menu-close {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  nav .nav_links {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: -400px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: blue;
+    color: white;
+    transition: right 0.5s ease-in-out;
+  }
+
+  nav .show {
+    right: 0;
+  }
+
+  .nav_links .menu-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
 }

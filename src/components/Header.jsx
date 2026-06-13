@@ -1,8 +1,14 @@
 import { navLinks } from "../constants/navLinks.js";
 import { logo } from "../assets/index.js";
 import { IoIosArrowDropdown } from "react-icons/io";
+import { CiMenuBurger } from "react-icons/ci";
+import { TiThMenuOutline } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
+import { useState } from "react";
 
 export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="">
       <nav>
@@ -12,28 +18,39 @@ export default function Header() {
         </div>
 
         {/* Navigation Links */}
-        <div className="nav_links">
-          {navLinks.map((link) => (
-            <div key={link.label} className="nav_parent">
-              {link.label}
+        <div className={`nav_links ${isOpen ? "show" : ""}`}>
+          {navLinks.map((link) =>
+            link.path ? (
+              <a key={link.label} href={link.path}>
+                {link.label}
+              </a>
+            ) : (
+              <div key={link.label} className="nav_parent">
+                {link.label}
 
-              {link.childrens && link.childrens.length > 0 && (
-                <IoIosArrowDropdown />
-              )}
+                {link.childrens && link.childrens.length > 0 && (
+                  <IoIosArrowDropdown />
+                )}
 
-              {link.childrens && (
                 <div className="nav_childerns">
-                  {link.childrens &&
-                    link.childrens.length > 0 &&
-                    link.childrens.map((children) => (
-                      <div key={children.label} className="">
-                        {children.label}
-                      </div>
-                    ))}
+                  {link.childrens.map((children) => (
+                    <a href={children.path} key={children.label} className="">
+                      {children.label}
+                    </a>
+                  ))}
                 </div>
-              )}
-            </div>
-          ))}
+              </div>
+            ),
+          )}
+
+          <div className="menu-close" onClick={() => setIsOpen(false)}>
+            <IoClose />
+          </div>
+        </div>
+
+        {/* Hamburger */}
+        <div className="menu-open" onClick={() => setIsOpen(true)}>
+          <TiThMenuOutline />
         </div>
       </nav>
     </header>

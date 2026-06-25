@@ -151,37 +151,23 @@ function CourseDetails() {
             onChange={handleChange}
           />
           {errors.college && <span className="error">{errors.college}</span>}
-
-          <select name="course" value={formData.course} onChange={handleChange}>
+          <select name="course" value={Selection} onChange={handleChange}>
             <option value="">Select Course</option>
-
             <option value="Python Programming">Python</option>
-
             <option value="Artificial Intelligence & Machine Learning">
               AI / ML
             </option>
-
             <option value="Internet of Things">IoT</option>
-
             <option value="Data Analytics">Data Analytics</option>
-
             <option value="Data Science">Data Science</option>
-
             <option value="Full Stack Development">Full Stack</option>
-
             <option value="Robotics Engineering">Robotics</option>
-
             <option value="Arduino Programming">Arduino</option>
-
             <option value="Raspberry Pi">Raspberry Pi</option>
-
             <option value="Drone Technology">Drone Technology</option>
-
             <option value="3D Printing">3D Printing</option>
           </select>
-
           {errors.course && <span className="error">{errors.course}</span>}
-
           <button type="submit">Enroll Now</button>
         </form>
       </div>

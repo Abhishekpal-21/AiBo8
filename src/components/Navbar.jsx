@@ -13,7 +13,7 @@ export default function Navbar() {
       </div>
 
       <nav className={menuOpen ? "nav active" : "nav"}>
-        <a href="#">Home</a>
+        <a href="/">Home</a>
 
         {/* Company */}
         <div className="dropdown">

@@ -16,6 +16,8 @@ import Eventspage from "./pages/Eventspage";
 import Testimonial from "./pages/Testimonial";
 import Career from "./pages/Career";
 import CareerContact from "./SecondaryPage/CareerContact";
+import courses from "./SecondaryPage/courseData";
+import CourseDetails from "./SecondaryPage/CourseDetails";
 
 function Home() {
   return (
@@ -46,6 +48,8 @@ function App() {
         <Route path="/testimonial" element={<Testimonial />} />
         <Route path="/career" element={<Career />} />
         <Route path="/careercontact" element={<CareerContact />} />
+        <Route path="/courseData" element={<courseData />} />
+        <Route path="/course/:courseId" element={<CourseDetails />} />
       </Routes>
     </BrowserRouter>
   );

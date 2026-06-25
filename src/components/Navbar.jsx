@@ -42,17 +42,17 @@ export default function Navbar() {
         <div className="dropdown">
           <button>Courses ▾</button>
           <div className="mega-menu">
-            <a href="#">Python</a>
-            <a href="#">AI / ML</a>
-            <a href="#">IOT</a>
-            <a href="#">Data Analytics</a>
-            <a href="#">Data Science</a>
-            <a href="#">Full Stack</a>
-            <a href="#">Robotics</a>
-            <a href="#">Arduino</a>
-            <a href="#">Raspberry Pi</a>
-            <a href="#">Drone Technology</a>
-            <a href="#">3D Printing</a>
+            <Link to="/course/python">Python</Link>
+            <Link to="/course/aiml">AI / ML</Link>
+            <Link to="/course/iot">IOT</Link>
+            <Link to="/course/dataanalytics">Data Analytics</Link>
+            <Link to="/course/datascience">Data Science</Link>
+            <Link to="/course/fullstack">Full Stack</Link>
+            <Link to="/course/robotics">Robotics</Link>
+            <Link to="/course/arduino">Arduino</Link>
+            <Link to="/course/raspberrypi">Raspberry Pi</Link>
+            <Link to="/course/drone">Drone Technology</Link>
+            <Link to="/course/printing3d">3D Printing</Link>
           </div>
         </div>
 

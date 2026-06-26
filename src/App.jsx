@@ -18,7 +18,7 @@ import Career from "./pages/Career";
 import CareerContact from "./SecondaryPage/CareerContact";
 import courses from "./SecondaryPage/courseData";
 import CourseDetails from "./SecondaryPage/CourseDetails";
-
+import OurLabs from "./pages/OurLabs";
 function Home() {
   return (
     <>
@@ -50,6 +50,7 @@ function App() {
         <Route path="/careercontact" element={<CareerContact />} />
         <Route path="/courseData" element={<courseData />} />
         <Route path="/course/:courseId" element={<CourseDetails />} />
+        <Route path="/ourLabs" element={<OurLabs />} />
       </Routes>
     </BrowserRouter>
   );

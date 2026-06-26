@@ -1156,3 +1156,159 @@
     height: 200px;
   }
 }
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||OUR LABS||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+.labs-section {
+  padding: 90px 8%;
+  background: linear-gradient(135deg, #020617, #0f172a);
+  position: relative;
+}
+
+.labs-title {
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+.labs-title span {
+  background: #0f425c;
+  color: #6b4cff;
+  padding: 8px 22px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.labs-title h2 {
+  margin: 20px 0;
+  font-size: 58px;
+  color: #214e6f;
+}
+
+.labs-title h2 strong {
+  color: #6b4cff;
+}
+
+.labs-title p {
+  color: #5d6476;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.labs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 35px;
+}
+
+.lab-card {
+  background: rgb(135, 189, 196);
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+  transition: 0.45s;
+  position: relative;
+}
+
+.lab-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 45px rgba(91, 76, 255, 0.25);
+}
+
+.lab-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.icon-box {
+  width: 70px;
+  height: 70px;
+  background: white;
+  color: #6b4cff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: -35px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.lab-card h3 {
+  text-align: center;
+  margin: 18px 0;
+  color: #24365d;
+  font-size: 28px;
+}
+
+.lab-card ul {
+  list-style: none;
+  padding: 0 30px 35px;
+}
+
+.lab-card li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  color: #4e5874;
+  font-size: 16px;
+}
+
+.lab-card li svg {
+  color: #6b4cff;
+}
+
+.bottom-features {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.35s;
+}
+
+.feature:hover {
+  transform: translateY(-8px);
+}
+
+.feature svg {
+  font-size: 34px;
+  color: #6b4cff;
+}
+
+.feature h4 {
+  margin-bottom: 8px;
+  color: #23335c;
+}
+
+.feature p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .labs-title h2 {
+    font-size: 40px;
+  }
+
+  .lab-card img {
+    height: 200px;
+  }
+
+  .labs-section {
+    padding: 70px 20px;
+  }
+}

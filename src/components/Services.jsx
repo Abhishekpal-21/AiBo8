@@ -12,7 +12,7 @@ const services = [
     image: LabImage,
     description:
       "Creating fully-equipped labs for hands-on learning in AI, IoT and Robotics.",
-    path: "#",
+    path: "/OurLabs",
   },
 
   {

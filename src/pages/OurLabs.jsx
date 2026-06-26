@@ -76,8 +76,6 @@ export default function LabsWeOffer() {
   return (
     <section className="labs-section">
       <div className="labs-title">
-        <span>KEY SERVICES</span>
-
         <h2>
           LAB'S <strong>We Offer</strong>
         </h2>

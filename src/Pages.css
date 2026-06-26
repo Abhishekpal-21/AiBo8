@@ -1159,7 +1159,7 @@
 /* ||||||||||||||||||||||||||||||||||||||||||||||||||OUR LABS||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
 .labs-section {
   padding: 90px 8%;
-  background: linear-gradient(135deg, #020617, #0f172a);
+  background: linear-gradient(135deg, #050c29, #637ab0);
   position: relative;
 }
 
@@ -1168,15 +1168,6 @@
   max-width: 850px;
   margin: auto;
   margin-bottom: 70px;
-}
-
-.labs-title span {
-  background: #0f425c;
-  color: #6b4cff;
-  padding: 8px 22px;
-  border-radius: 30px;
-  font-size: 0.8rem;
-  font-weight: 700;
 }
 
 .labs-title h2 {
@@ -1299,13 +1290,17 @@
   line-height: 1.6;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .labs-title h2 {
     font-size: 40px;
+  }
+  .labs-grid {
+    min-width: 320px;
   }
 
   .lab-card img {
     height: 200px;
+    min-width: 320px;
   }
 
   .labs-section {

@@ -1,12 +1,12 @@
 import React from "react";
 import "../Pages.css";
 
-import aiCollege from "../assets/images/logo.png";
-import iot from "../assets/images/logo.png";
-import robotics from "../assets/images/logo.png";
-import humanoid from "../assets/images/logo.png";
-import drone from "../assets/images/logo.png";
-import aiml from "../assets/images/logo.png";
+import aiCollege from "../assets/images/aidriven.jpg";
+import iot from "../assets/images/IOT.jpg";
+import robotics from "../assets/images/robolab.jpg";
+import humanoid from "../assets/images/humanoid.jpg";
+import drone from "../assets/images/dronelab.jpg";
+import aiml from "../assets/images/background.png";
 
 import {
   FaRobot,

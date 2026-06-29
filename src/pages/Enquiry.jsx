@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Pages.css";
+import "../App.css";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -91,6 +91,7 @@ export default function Contact() {
             <option value="Drone Technology">Drone Technology</option>
             <option value="IoT Solutions">IoT Solutions</option>
             <option value="Workshop">Workshop</option>
+            <option value="Value Added COurse">Value Added Course</option>
           </select>
 
           <textarea

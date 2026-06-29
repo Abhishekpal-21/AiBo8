@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages.css";
+import "../App.css";
 
 import aiCollege from "../assets/images/aidriven.jpg";
 import iot from "../assets/images/IOT.jpg";

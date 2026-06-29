@@ -28,7 +28,7 @@ const services = [
     image: Workshops,
     description:
       "Hands-on workshops and innovation summits to engage learners.",
-    path: "#",
+    path: "/WorkshopDetails",
   },
 
   {
@@ -43,7 +43,7 @@ const services = [
     title: "Value-Added Courses ",
     image: VAC,
     description: "Specialized courses designed to supplement core curriculum.",
-    path: "#",
+    path: "/ValueAddedCourses",
   },
 
   {

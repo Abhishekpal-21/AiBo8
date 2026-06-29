@@ -1,7 +1,7 @@
 const courses = {
   python: {
     title: "Python Programming",
-    duration: "3 Months",
+    duration: "7 Days",
     level: "Beginner to Advanced",
     description:
       "Master Python programming with hands-on projects, automation, data handling, and real-world applications.",
@@ -15,7 +15,7 @@ const courses = {
 
   aiml: {
     title: "Artificial Intelligence & Machine Learning",
-    duration: "4 Months",
+    duration: "7 Days",
     level: "Intermediate",
     description:
       "Learn Machine Learning, Deep Learning, Computer Vision and build AI-powered applications.",
@@ -29,7 +29,7 @@ const courses = {
 
   iot: {
     title: "Internet of Things",
-    duration: "3 Months",
+    duration: "7 Days",
     level: "Beginner",
     description:
       "Build smart devices using sensors, cloud platforms, and microcontrollers.",
@@ -43,7 +43,7 @@ const courses = {
 
   dataanalytics: {
     title: "Data Analytics",
-    duration: "3 Months",
+    duration: "7 Days",
     level: "Beginner",
     description:
       "Analyze and visualize data using Excel, SQL, Python and Power BI.",
@@ -52,7 +52,7 @@ const courses = {
 
   datascience: {
     title: "Data Science",
-    duration: "5 Months",
+    duration: "7 Days",
     level: "Intermediate",
     description:
       "Learn statistics, machine learning, and predictive modeling using real datasets.",
@@ -66,7 +66,7 @@ const courses = {
 
   fullstack: {
     title: "Full Stack Development",
-    duration: "6 Months",
+    duration: "7 Days",
     level: "Beginner to Advanced",
     description:
       "Build complete web applications using React, Node.js, Express and MongoDB.",
@@ -80,7 +80,7 @@ const courses = {
 
   robotics: {
     title: "Robotics Engineering",
-    duration: "4 Months",
+    duration: "7 Days",
     level: "Beginner",
     description:
       "Design and build robots while learning electronics, sensors and programming.",
@@ -94,7 +94,7 @@ const courses = {
 
   arduino: {
     title: "Arduino Programming",
-    duration: "2 Months",
+    duration: "7 Days",
     level: "Beginner",
     description:
       "Learn electronics and microcontroller programming using Arduino boards.",
@@ -103,7 +103,7 @@ const courses = {
 
   raspberrypi: {
     title: "Raspberry Pi",
-    duration: "2 Months",
+    duration: "7 Days",
     level: "Intermediate",
     description: "Develop Linux-based embedded systems and IoT applications.",
     features: [
@@ -116,7 +116,7 @@ const courses = {
 
   drone: {
     title: "Drone Technology",
-    duration: "3 Months",
+    duration: "7 Days",
     level: "Beginner",
     description:
       "Learn drone design, flight control systems, aerial mapping and applications.",
@@ -130,7 +130,7 @@ const courses = {
 
   printing3d: {
     title: "3D Printing",
-    duration: "2 Months",
+    duration: "7 Days",
     level: "Beginner",
     description:
       "Design and manufacture prototypes using modern 3D printing technology.",

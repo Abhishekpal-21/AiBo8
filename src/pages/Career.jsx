@@ -1,5 +1,5 @@
 import React from "react";
-import "../Pages.css";
+import "../App.css";
 import { Link } from "react-router-dom";
 import robotImg from "../assets/images/Airobot.png";
 

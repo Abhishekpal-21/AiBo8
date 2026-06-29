@@ -19,6 +19,8 @@ import CareerContact from "./SecondaryPage/CareerContact";
 import courses from "./SecondaryPage/courseData";
 import CourseDetails from "./SecondaryPage/CourseDetails";
 import OurLabs from "./pages/OurLabs";
+import ValueAddedCourses from "./SecondaryPage/ValueAddedCourses";
+import WorkshopDetails from "./SecondaryPage/WorkshopDetails";
 function Home() {
   return (
     <>
@@ -51,6 +53,8 @@ function App() {
         <Route path="/courseData" element={<courseData />} />
         <Route path="/course/:courseId" element={<CourseDetails />} />
         <Route path="/ourLabs" element={<OurLabs />} />
+        <Route path="/ValueAddedCourses" element={<ValueAddedCourses />} />
+        <Route path="/WorkshopDetails" element={<WorkshopDetails />} />
       </Routes>
     </BrowserRouter>
   );

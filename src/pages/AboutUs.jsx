@@ -1,4 +1,4 @@
-import "../Pages.css";
+import "../App.css";
 import { Link } from "react-router-dom";
 import team1 from "../assets/images/Airobot.png";
 

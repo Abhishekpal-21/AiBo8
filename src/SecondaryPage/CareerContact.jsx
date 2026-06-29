@@ -1,4 +1,4 @@
-import "../Secondary.css";
+import "../App.css";
 function CareerContact() {
   return (
     <section className="career-form-section">

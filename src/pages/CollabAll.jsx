@@ -1,4 +1,4 @@
-import "../Pages.css";
+import "../App.css";
 
 import img1 from "../assets/images/ClassofOne.jpg";
 import img2 from "../assets/images/CSKM.jpg";

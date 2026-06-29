@@ -1,4 +1,4 @@
-import "../Pages.css";
+import "../App.css";
 
 import MD from "../assets/images/MD.jpg";
 import Director from "../assets/images/Director.jpg";

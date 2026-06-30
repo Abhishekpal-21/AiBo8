@@ -3545,3 +3545,380 @@ body {
     font-size: 0.95rem;
   }
 }
+/* |||||||||||||||||||||||||||||||||INDUSTRIAL TRAINING||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.valueindustrial-page {
+  background: linear-gradient(135deg, #02142c, #032c5c, #063d79);
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HERO */
+
+.valueindustrial-hero {
+  padding: 110px 8% 70px;
+  text-align: center;
+  max-width: 950px;
+  margin: auto;
+}
+
+.heroindustrial-tag {
+  display: inline-block;
+  padding: 12px 25px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  backdrop-filter: blur(15px);
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.valueindustrial-hero h1 {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.valueindustrial-hero h1 span {
+  color: #00d4ff;
+}
+
+.valueindustrial-hero p {
+  color: #d8e6ff;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: auto;
+}
+
+/* COURSE GRID */
+
+.coursesindustrial-section {
+  padding: 20px 8% 90px;
+}
+
+.coursesindustrial-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+
+.courseindustrial-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  padding: 30px;
+  transition: 0.45s;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.courseindustrial-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90deg, #00d4ff, #2563eb);
+  transform: scaleX(0);
+  transition: 0.45s;
+}
+
+.courseindustrial-card:hover::before {
+  transform: scaleX(1);
+}
+
+.courseindustrial-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+  border-color: #00d4ff;
+}
+
+/* ICON */
+
+.courseindustrial-icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #00d4ff, #2563eb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  margin-bottom: 25px;
+  transition: 0.4s;
+}
+
+.courseindustrial-card:hover .courseindustrial-icon {
+  transform: rotate(12deg) scale(1.08);
+}
+
+/* TEXT */
+
+.courseindustrial-card h3 {
+  color: #fff;
+  font-size: 1.35rem;
+  margin-bottom: 15px;
+  min-height: 60px;
+}
+
+.courseindustrial-card p {
+  color: #d8e6ff;
+  line-height: 1.7;
+  flex: 1;
+}
+
+/* META */
+
+.courseindustrial-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.courseindustrial-details span {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+/* WHY */
+
+.whyindustrial-section {
+  padding: 0 8% 100px;
+}
+
+.whyindustrial-section h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+}
+
+.whyindustrial-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.whyindustrial-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 22px;
+  padding: 35px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.whyindustrial-card:hover {
+  transform: translateY(-10px);
+  background: #00d4ff;
+}
+
+.whyindustrial-card h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.whyindustrial-card:hover h3,
+.whyindustrial-card:hover p {
+  color: #03254c;
+}
+
+.whyindustrial-card p {
+  color: #d8e6ff;
+  line-height: 1.7;
+}
+
+/* CTA */
+
+.contact-section {
+  margin: 0 8% 90px;
+  padding: 70px;
+  border-radius: 30px;
+  text-align: center;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.contact-section h2 {
+  color: #fff;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  color: #eef7ff;
+  max-width: 700px;
+  margin: 0 auto 35px;
+  line-height: 1.8;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 18px 42px;
+  border-radius: 40px;
+  text-decoration: none;
+  background: #fff;
+  color: #0072ff;
+  font-weight: 700;
+  transition: 0.4s;
+}
+
+.contact-btn:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* ANIMATION */
+
+.courseindustrial-card,
+.whyindustrial-card {
+  animation: fadeUp 0.8s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* TABLET */
+
+@media (max-width: 1100px) {
+  .coursesindustrial-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .whyindustrial-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .valueindustrial-hero h1 {
+    font-size: 3rem;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .valueindustrial-hero {
+    padding: 90px 20px 50px;
+  }
+
+  .valueindustrial-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .valueindustrial-hero p {
+    font-size: 16px;
+  }
+
+  .coursesindustrial-section {
+    padding: 20px;
+  }
+
+  .coursesindustrial-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .courseindustrial-card {
+    padding: 25px;
+  }
+
+  .courseindustrial-card h3 {
+    min-height: auto;
+  }
+
+  .whyindustrial-section {
+    padding: 20px;
+  }
+
+  .whyindustrial-section h2 {
+    font-size: 2rem;
+  }
+
+  .whyindustrial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section {
+    margin: 20px;
+    padding: 45px 25px;
+  }
+
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+
+  .contact-btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* SMALL MOBILE */
+
+@media (max-width: 480px) {
+  .valueindustrial-hero h1 {
+    font-size: 2rem;
+  }
+
+  .heroindustrial-tag {
+    font-size: 13px;
+    padding: 10px 18px;
+  }
+
+  .courseindustrial-icon {
+    width: 65px;
+    height: 65px;
+    font-size: 32px;
+  }
+
+  .courseindustrial-card {
+    padding: 20px;
+  }
+
+  .courseindustrial-details {
+    flex-direction: column;
+  }
+
+  .courseindustrial-details span {
+    text-align: center;
+  }
+
+  .contact-section {
+    padding: 35px 18px;
+  }
+
+  .contact-section h2 {
+    font-size: 1.7rem;
+  }
+
+  .contact-section p {
+    font-size: 15px;
+  }
+}

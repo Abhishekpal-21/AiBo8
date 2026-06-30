@@ -21,6 +21,7 @@ import CourseDetails from "./SecondaryPage/CourseDetails";
 import OurLabs from "./pages/OurLabs";
 import ValueAddedCourses from "./SecondaryPage/ValueAddedCourses";
 import WorkshopDetails from "./SecondaryPage/WorkshopDetails";
+import IndustrialTraining from "./SecondaryPage/IndustrialTraining";
 function Home() {
   return (
     <>
@@ -55,6 +56,7 @@ function App() {
         <Route path="/ourLabs" element={<OurLabs />} />
         <Route path="/ValueAddedCourses" element={<ValueAddedCourses />} />
         <Route path="/WorkshopDetails" element={<WorkshopDetails />} />
+        <Route path="/IndustrialTraining" element={<IndustrialTraining />} />
       </Routes>
     </BrowserRouter>
   );

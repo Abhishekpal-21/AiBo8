@@ -36,7 +36,7 @@ const services = [
     image: IndTrain,
     description:
       "Upskilling educators to teach emerging technologies effectively..",
-    path: "#",
+    path: "/IndustrialTraining",
   },
 
   {

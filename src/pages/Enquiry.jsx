@@ -88,6 +88,7 @@ export default function Contact() {
             <option value="">Select Service</option>
             <option value="AI Lab Setup">AI Lab Setup</option>
             <option value="Robotics Training">Robotics Training</option>
+            <option value="Industrial Training">Industrial Training</option>
             <option value="Drone Technology">Drone Technology</option>
             <option value="IoT Solutions">IoT Solutions</option>
             <option value="Workshop">Workshop</option>

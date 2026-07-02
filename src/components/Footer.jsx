@@ -65,10 +65,10 @@ export default function Footer() {
         <div className="footer-links">
           <h3>Services</h3>
 
-          <Link to="#">AI Labs</Link>
+          <Link to="/OurLabs">AI Labs</Link>
           <Link to="#">Robotics</Link>
           <Link to="#">IoT Training</Link>
-          <Link to="#">Workshops</Link>
+          <Link to="/WorkshopDetails">Workshops</Link>
           <Link to="#">Certification</Link>
         </div>
 

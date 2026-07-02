@@ -13,49 +13,41 @@ const events = [
     title: "GPC Kangra",
     desc: "1",
     image: img1,
-    link: "#",
   },
   {
     title: "CSKM Public School",
     desc: "2",
     image: img2,
-    link: "#",
   },
   {
     title: "GPC Banikhet",
     desc: "3",
     image: img3,
-    link: "#",
   },
   {
     title: "RGGEC, Nagrota",
     desc: "4",
     image: img4,
-    link: "#",
   },
   {
     title: "5",
     desc: "5",
     image: img5,
-    link: "#",
   },
   {
     title: "6",
     desc: "6",
     image: img6,
-    link: "#",
   },
   {
     title: "7",
     desc: "7",
     image: img7,
-    link: "#",
   },
   {
     title: "8",
     desc: "8",
     image: img8,
-    link: "#",
   },
 ];
 

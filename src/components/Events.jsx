@@ -12,37 +12,37 @@ const events = [
     title: "Robo War",
     tag: "AIBO8 Robo War",
     image: RoboWar,
-    path: "#",
+    path: "/event/robo-war",
   },
   {
     title: "Robo Rumble",
     tag: "AIBO8 Robo Rumble",
     image: RoboRumble,
-    path: "#",
+    path: "/event/robo-rumble",
   },
   {
     title: "Robo Soccer",
     tag: "AIBO8 Robo Soccer",
     image: RoboSoccer,
-    path: "#",
+    path: "/event/robo-soccer",
   },
   {
     title: "Robo Race",
     tag: "AIBO8 Robo Race",
     image: RoboRace,
-    path: "#",
+    path: "/event/robo-race",
   },
   {
     title: "Drone Race",
     tag: "AIBO8 Drone Race",
     image: DroneRace,
-    path: "#",
+    path: "/event/drone-race",
   },
   {
     title: "Hackathon",
     tag: "AIBO8 Hackathon",
     image: Hackathon,
-    path: "#",
+    path: "/event/hackathon",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function Events() {
               <span>{event.tag}</span>
               <h3>{event.title}</h3>
 
-              <button>Explore →</button>
+              <div className="explore-btn">Explore →</div>
             </div>
           </Link>
         ))}

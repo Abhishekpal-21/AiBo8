@@ -22,6 +22,7 @@ import OurLabs from "./pages/OurLabs";
 import ValueAddedCourses from "./SecondaryPage/ValueAddedCourses";
 import WorkshopDetails from "./SecondaryPage/WorkshopDetails";
 import IndustrialTraining from "./SecondaryPage/IndustrialTraining";
+import EventImage from "./SecondaryPage/EventImage";
 function Home() {
   return (
     <>
@@ -57,6 +58,7 @@ function App() {
         <Route path="/ValueAddedCourses" element={<ValueAddedCourses />} />
         <Route path="/WorkshopDetails" element={<WorkshopDetails />} />
         <Route path="/IndustrialTraining" element={<IndustrialTraining />} />
+        <Route path="/event/:eventName" element={<EventImage />} />
       </Routes>
     </BrowserRouter>
   );
